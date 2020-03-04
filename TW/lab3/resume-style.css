@@ -1,0 +1,64 @@
+@media(max-width: 780px){
+    .title{
+        color: red;
+    }
+}
+.title{
+    margin:0;
+    font-family: "Lato", sans-serif;
+    font-size:38px;
+    font-weight:700;
+    text-align:center;
+    text-transform: uppercase;
+}
+ 
+.subtitle{
+    color:#999;
+    margin-bottom:1em;
+    font-family: "Lato", sans-serif;
+    font-size:1.5em;
+    line-height: 1em;
+    text-align:center;
+    text-transform: uppercase;
+}
+ 
+.menu{
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align:center;
+}
+ 
+.menu-item{
+    display: inline-block;
+    margin-left:20px;
+    margin-right:10px;
+    padding:10px 40px 10px 40px;
+    background-color: white;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size:14px;
+    color:#999;
+    text-align:bottom;
+}
+.menu-item-active{
+    position:relative;
+    bottom:-1px;
+    color:#c0392b;
+    padding:15px 40px 15px 40px;
+    margin-top:15px 40px 15px 40px;
+}
+ 
+hr{
+    margin-top:25px;
+    margin-bottom:25px;
+    border-style:solid;
+    border-color:#f1f1f1;
+    border-width:1px;
+}
+ 
+.skills-item .skills-bg html{
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 5rem 5rem;
+}
